@@ -2,7 +2,7 @@ version: '3'
 services:
   python:
     build: .
-    container_name: python
+    container_name: usebs4
     volumes:
       - ./start.sh:/start.sh
       - ./app:/app
